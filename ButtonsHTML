@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>HTML5 and CSS3 Fundamentals</title>
+	<link rel="stylesheet" type="text/css" href="syles.css" media="screen">	
+</head>
+<body>
+<h1>A Whole Bunch Of Nonsense!!</h1>
+<ul>
+	<li>Moe</li>
+	<li>Larry</li>
+	<li>Curly</li>
+</ul>
+<ol>
+<dl>
+<dt>programmer</dt>
+<dd>Quincy</dd>
+</dl>
+	<li>Alien</li>
+	<li>Aliens</li>
+	<li>Alien: Resurrection</li>
+	<li>Prometheus</li>
+</ol>
+<h1>Anchor Tags</h1>
+<p><a href="http://www.bing.com" target="_blank">To Bing</a></p>
+<p><a href="another.html">To Another HTML Page</a></p>
+<p><a href="subfolder/subfolder.html">To The Subfolder Page</a></p>
+<p><a href="bottom">To bottom</a></p>
+<header>
+  <hgroup>
+    <h1>Channel9</h1>
+    <h2>HTML5 and CSS3 Fundamentals</h2>
+  </hgroup>
+
+  <nav>
+    <ul>
+     <li><a href="#">Home</a></li>
+     <li><a href="#">About</a></li>
+     <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+<section>
+<article>
+<h1>Background Every Web Developer Needs to Know</h1>
+<h2>Introduction</h2>
+<p>blablablablablablabla</p>
+<h2>A Brief Technical Overview of the WWW</h2>
+<p>ghdjsakwbaeka. See Figure 1. jsbdfavewaio</p>
+
+<figure>
+  <img src="http-message.gif" alt="A diagram of the parts of an HTTP Message">
+  <figcaption>Figure 1. Important information following this caption.</figcaption>
+
+</figure>
+<h3>What Are Domain Names?</h3>
+<p>The request that users type into aweb browsers orginally looked something like this:<br>
+
+<ol> 
+<li>First of all</li>
+<li>Second</li>
+<li>Third</li>
+<li>Lastly</li>
+</ol>
+
+<br>
+<p>Example:&lt;!DOCTYPE html&gt;</p>
+
+<h1>Table</h1>
+<h2>Jonathan Toews Stats</h2>
+<Table>
+	<thead>
+	 <th>Season</th>
+	 <th>Goals</th>
+	 <th>Assists</th>
+	</thead>
+<tbody>
+  <tr>
+   <th>2009-2010</th>
+   <td>25</td>
+   <td>43</td>
+  </tr>
+</tbody>
+<tfoot>
+	<tr>
+	 <th>Totals</th>
+	 <td>86</td>
+	 <td>115</td>
+	</tr>
+	
+
+<h1>Creating Forms</h1>
+<form method="POST" action="form.aspx" >
+<p>
+	<label>Customer name: <input type="text" id="CustomerName" name="CustomerName"
+	maxlength="16">
+</p>
+<fieldset>
+	<legend>Pizza Size</legend>
+	<p><label> <input type="radio" name="size" value="small"> Small (10 inch)</label></p>
+	<p><label> <input type="radio" name="size" value="medium"> Medium (12 inch)</label></p>
+	<p><label> <input type="radio" name="size" value="large"> Large (14 inch)</label></p>
+</fieldset>
+<fieldset>
+	<legend>Pizza Toppings</legend>
+	<p><label> <input type="checkbox" name="toppings" value="bacon"> Bacon </label></p>
+	<p><label> <input type="checkbox" name="toppings" value="cheese"> Extra Cheese </label></p>
+		<p><label> <input type="checkbox" name="toppings" value="Onion"> Onion </label></p>
+			<p><label> <input type="checkbox" name="toppings" value="mushroom"> Mushroom</label></p>
+</fieldset>
+<p>Crust 
+<select name="crust" multiple>
+	<option value="c1">Normal</option>
+	<option value="c2">Chicago Deep Dish (+ $2)</option>
+	<option value="c3" selected>New York Thin</option>
+	//can add selected or checked as a default
+</select>
+</p>
+<p><label>Delivery Instructions:
+<textarea name="comments" cols="50" rows="5" maxlength="1000">
+How do we get to you?</textarea>
+</label>
+</p>
+<p><input type="submit" value="Continue to step 2"</p>
+<p><input type="reset" value="Reset Values"></p>
+</form>
+</article>
+</section>
+<footer>
+<nav>
+    <ul>
+     <li><a href="#">Home</a></li>
+     <li><a href="#">About</a></li>
+     <li><a href="#">Contact</a></li>
+    </ul>
+  </nav>
+<aside>bjkewa bsjekbaejksa? hfjekwavpwaieahviowabsjak!</aside>
+<small>Copyright &copy; 2015</small>
+
+<h1>Creating Forms</h1>
+<h2>Email</h2>
+<p><label><span>Email Input: </span><input type=email name=emailInput required></label></p>
+<h2>Telephone</h2>
+<p><label><span>Telephone input: </span><input type=tel name=TelInput Required></label></p>
+<h2>URL</h2>
+<p><label><span>URL Input: </span><input type=url name=urlInput required></label?></p>
+<h2>Numeric Values</h2>
+<p><label><span>Number Input: </span><input type=number name=numberInput required></label></p>
+<p><label><span>Range Input: </span><input type=range name=rangeInput required value=42></label>Value set to 42. By default, values between 0 and 100</p>
+<h2>Data List</h2>
+<p><label><span>Data List: </span>
+<input type=text list=someList>
+<datalist id=someList>
+	<option label=First value="First">
+	<option label=Second value="Second">
+	<option label=Third value="Third">
+</datalist>
+</label></p>
+<h2>Attributes</h2>
+<p><label><span>autofocus: </span><input type=text autofocus></label></p>
+<p><label><span>pattern: </span><input type=text pattern="^\d{5} (-\d{4})?$"></label>Hint: Use a valid/invalid zip code</p>
+<p><label><span>placeholder: </span><input type=text placeholder="Hello World"></label></p>
+//placeholder is great greyed out 
+<p><label><span>required: </span><input type=text required></label></p>
+<p><label><span>step: </span><input type=number step=5></label>Hint: Must be divisible by 5</p>
+
+<p><button><Submit></button></p>
+</footer>
+
+<p>
+<a href=" ">Click here</a>
+</p>
+<h1>I'm at the bottom</h1>
+<a name="bottom">
+
+</body>
+</html>
