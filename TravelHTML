@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+<meta charset="utf-8">
+<title>Welcome to my page!</title>
+<h1>This is my sample web page</h1>
+<h3>Made by Quincy Goss</h2>
+</head>
+
+<body>
+<p>Hello! Here is a sample web page with a 
+sketch of a basset hound for no particular reason.</p>
+<img src="Bassethound.jpg" alt="Basset Hound" </img>
+<p>I like to travel. Some countries that I have
+recently been to include:</p>
+<ol> 
+<li>Nepal</li>
+<li>Egypt</li>
+<li>Norway</li>
+<li>Iceland</li>
+</ol>
+<fieldset>
+	<legend>If you could go on a vacation, where would you go?</legend>
+	<p><label> <input type="radio" name="destination" value="Europe"> Europe</label></p>
+	<p><label> <input type="radio" name="destination" value="South America"> South America</label></p>
+	<p><label> <input type="radio" name="destination" value="Southeast Asia"> Southeast Asia</label></p>
+	<p><label> <input type="radio" name="destination" value="Africa"> Africa</label></p>
+	<p><label> <input type="radio" name="destination" value="Other"> Other</label></p>
+</fieldset>
+
+<p>For fun, I have a travel blog. You can click on the link below
+to check it out!</p>
+<nav>
+    <ul>
+     <li><a href="www.herethereandyonder.com">Travel Blog</a></li>
+    </ul>
+  </nav>
+  
+<p><label>Anything else?
+<textarea name="thoughts" cols="50" rows="5" maxlength="1000"></textarea></label></p> 
+
+
+</body>
+</head>
+<footer><p>Thanks for checking out my page!</p></footer>
